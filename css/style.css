@@ -1,0 +1,248 @@
+body {
+  margin: 0px;
+  color: #1d1d1d;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+header {
+  position: fixed;
+  height: 72px;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  z-index: 2;
+}
+.header-content {
+  max-width: 956px;
+  height: 40px;
+  margin: 16px auto;
+  padding: 0px 8px;
+}
+.header-content .logo {
+  margin-top: 14px;
+  max-height: 12.31px;
+  display: inline;
+}
+
+#button_1 {
+  background-image: url("image/basket.svg");
+  background-color: white;
+  width: 19px;
+  height: 23px;
+  float: right;
+  border: hidden;
+  margin-left: 27px;
+  margin-top: 9px;
+}
+
+#button_2 {
+  height: 40px;
+  width: 78px;
+  float: right;
+  background-color: white;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: #e0e0e0;
+  box-shadow: none;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 767px) {
+  #button_1 {
+    visibility: hidden;
+  }
+}
+
+#button-arrow {
+  height: 80px;
+  width: 80px;
+  background-color: rgba(89, 189, 90, 0.8);
+  border: none;
+  position: fixed;
+  float: right;
+  bottom: 24px;
+  right: 16px;
+}
+@media screen and (max-width: 767px) {
+  #button_arrow {
+    height: 64px;
+    width: 64px;
+  }
+}
+.main-content {
+  padding-top: 72px;
+  max-width: 972px;
+  margin: auto;
+}
+#search {
+  width: 100%;
+  margin-top: 55px;
+  margin-bottom: 57px;
+  border: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #757575;
+  border-radius: 1px;
+}
+h4 {
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 0px;
+}
+.card {
+  margin-top: 16px;
+  padding-bottom: 20px;
+  align-content: center;
+}
+.name {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 16px 0px 0px 0px;
+}
+.info {
+  color: #626262;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 4px 0px;
+}
+.time {
+  font-size: 13px;
+  line-height: 21px;
+  margin: 4px 0px;
+}
+.card:hover {
+  background-color: #e3e3e3;
+}
+.cafe-pic {
+  width: 100%;
+}
+.row {
+  margin-left: 0px;
+}
+footer {
+  background-color: #262626;
+  width: 100%;
+  color: white;
+  font-size: 13px;
+  bottom: 0px;
+}
+footer .logo {
+  margin-top: 56px;
+  margin-bottom: 40.31px;
+  max-height: 18.92px;
+}
+.footer-content {
+  max-width: 972px;
+  margin: auto;
+}
+
+.line {
+  border: none;
+  background-color: white;
+  height: 1px;
+}
+
+.logo + .line {
+  margin-bottom: 32px;
+}
+
+hr {
+  margin: 0px;
+}
+.dropdown {
+  background-color: #3b3b3b;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.world-pic {
+  height: 15.72px;
+  float: left;
+  margin-left: 16px;
+  margin-right: 16.28px;
+}
+.select-lang {
+  background-color: #3b3b3b;
+  color: white;
+  height: 40px;
+  width: 100%;
+  border: none;
+  margin-right: 8px;
+}
+
+.footer-content row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.green {
+  color: #49a144;
+}
+.footer-content span {
+  font-size: 16px;
+  white-space: nowrap;
+}
+.delete-whitespace {
+  font-size: 0px;
+}
+.social-media {
+  display: flex;
+  width: 96px;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+.no-left-padding {
+  padding-left: 0px;
+}
+.no-left-margin {
+  margin-left: 0px;
+}
+.link-item {
+  margin-bottom: 23px;
+}
+.app-store {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .app-store {
+    margin-top: 24.79px;
+    margin-bottom: 24.79px;
+  }
+}
+.store-icon {
+  height: 40px;
+}
+.app-stores-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app-store-item {
+  width: 150px;
+  display: flexbox;
+  align-items: center;
+}
+.footer-info {
+  margin-top: 40px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.padding-bottom-24 {
+  padding-bottom: 24px;
+}
+.main-content a:visited {
+  color: #1d1d1d;
+}
+
+a {
+  text-decoration: none;
+}

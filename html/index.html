@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="rus">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div id="beginning-anchor"></div>
+    <!-- HEADER -->
+    <header>
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <div class="header-content">
+          <a href="index.html"><img src="../image/logo.svg" class="logo" /></a>
+          <button id="button_1"></button>
+          <button id="button_2">Войти</button>
+        </div>
+      </div>
+    </header>
+    <!-- CARDS -->
+    <section class="main-content">
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <input
+          type="search"
+          id="search"
+          placeholder="Поиск по ресторанам и кухням"
+        />
+        <h4>Рестораны в Москве</h4>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+            <div class="card">
+              <img src="../image/cards/1.png" class="cafe-pic" />
+              <p class="name">Макдональдс — Газетный</p>
+              <p class="info">₽₽ • Бургеры</p>
+              <p class="time">25 - 35 мин</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/2.png" class="cafe-pic" />
+            <p class="name">DimSum & Co — ЦДМ</p>
+            <p class="info">₽ • Японская • Китайская • Азиатская</p>
+            <p class="time">40 - 50 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/3.png" class="cafe-pic" />
+            <p class="name">ДвижОК — Манежная</p>
+            <p class="info">₽ • Американская • Европейская</p>
+            <p class="time">35 - 45 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/4.png" class="cafe-pic" />
+            <p class="name">НЯ — NHA</p>
+            <p class="info">₽₽ • Вьетнамская</p>
+            <p class="time">30 - 40 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/5.png" class="cafe-pic" />
+            <p class="name">Точка Дзы — Цветной</p>
+            <p class="info">₽₽ • Вьетнамская</p>
+            <p class="time">40 - 50 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/6.png" class="cafe-pic" />
+            <p class="name">Cinnabon</p>
+            <p class="info">₽ • Выпечка • Десерты • Капкейки</p>
+            <p class="time">25 - 35 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/7.png" class="cafe-pic" />
+            <p class="name">PIZZELOVE</p>
+            <p class="info">₽₽ • Пицца</p>
+            <p class="time">15 - 25 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/8.png" class="cafe-pic" />
+            <p class="name">Zю кафе — Тверская</p>
+            <p class="info">₽₽ • Японская</p>
+            <p class="time">25 - 35 мин</p>
+          </div>
+          </a>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <a href="pushkin.html">
+          <div class="card">
+            <img src="../image/cards/9.png" class="cafe-pic" />
+            <p class="name">Bar BQ Cafe — Манежная</p>
+            <p class="info">₽₽₽ • Европейская</p>
+            <p class="time">30 - 40 мин</p>
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    <a href="#beginning-anchor">
+      <button id="button-arrow"><img src="../image/arrow.svg" /></button
+    ></a>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <img src="../image/white-logo.svg" class="logo" />
+          <hr class="line" />
+          <row>
+            <div class="col-xs-7 col-md-3 col-lg-3 no-left-padding">
+              <div class="dropdown">
+                <img src="../image/world.svg" class="world-pic" />
+                <select name="lang" class="select-lang">
+                  <option value="1">Русский</option>
+                  <option value="2">English</option>
+                  <option value="3">Українська</option>
+                  <option value="4">中国人</option>
+                  <option value="5">Français</option>
+                  <option value="6">Italiano</option>
+                </select>
+              </div>
+              <div class="delete-whitespace">
+                <span class="green">#</span>
+                <span>UberEats</span>
+              </div>
+              <div class="social-media">
+                <div>
+                  <img src="../image/facebook.svg" />
+                </div>
+                <div>
+                  <img src="../image/twitter.svg" />
+                </div>
+                <div>
+                  <img src="../image/instagram.svg" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 no-left-padding">
+              <div class="link-item">
+                <p><a>Об UberEats</a></p>
+              </div>
+              <div class="link-item">
+                <p><a>Станьте партнёром по доставке</a></p>
+              </div>
+              <div class="link-item">
+                <p><a>Станьте парнёром-рестораном</a></p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 no-left-padding">
+              <div class="link-item">
+                <p><a>Все города</a></p>
+              </div>
+              <div class="link-item">
+                <p><a>Цены</a></p>
+              </div>
+              <div class="link-item">
+                <p><a>Помощь</a></p>
+              </div>
+              <div class="link-item">
+                <p><a> FAQs </a></p>
+              </div>
+            </div>
+          </row>
+          <hr class="line" />
+          <div class="app-stores-line">
+            <div class="col-xs-10 col-md-6 col-lg-4">
+              <div class="app-store">
+                <div class="app-store-item">
+                  <a>
+                    <img src="../image/App-store.png" class="store-icon" />
+                  </a>
+                </div>
+                <div class="app-store-item">
+                  <a>
+                    <img src="../image/playmarket.svg" class="store-icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="line" />
+          <div class="footer-info">
+            <div class="col-xs-12 col-md-4 col-lg-4 padding-bottom-24">
+                © 2022 Uber Technologies Inc.
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 padding-bottom-24">
+                Обработка персональных данных
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4 padding-bottom-24">
+                Пользовательское соглашение
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
